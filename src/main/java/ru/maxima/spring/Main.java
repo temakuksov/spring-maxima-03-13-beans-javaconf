@@ -9,6 +9,9 @@ public class Main {
         // В каждой радиостанции необходимо крутить несколько треков (не один).
         // Пусть каждый запуск радио крутится рандомная песня.
 
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(SpringConfig.class);
+
+
     }
 }
